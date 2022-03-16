@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+/*SMARTPHONE*/
+@media (min-width: 480px) {
+    
+    .container {
+        width: 100%;
+        background-color: #b4aebf;
+        color: #2a190f
+    }
+
+    .image-container {
+        background-image: url('../img/profile1.jpg');
+    }
+    
+    .navigation ul li {
+        display: block;
+        border: 1px solid #2a190f;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        color: #2a190f;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer ul a {
+        color: #2a190f;
+        text-decoration: none;
+    }
+    
+}
+
+/*TABLET*/
+@media (min-width: 768px) {
+
+    .container {
+        width: 100%;
+        background-color: #cfa58e;
+        color: #634d3e ;
+    }
+
+    .image-container {
+        background-image: url('../img/profile2.jpg');
+    }
+    
+    .navigation ul li {
+        display: block;
+        border: 1px solid #634d3e;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        color: #634d3e;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer ul a {
+        color: #634d3e;
+        text-decoration: none;
+    }
+    
+}
+
+/*LAPTOP*/
+@media (min-width: 1024px){
+        
+    .container {
+        width: 100%;
+        background-color: #d2ccc9;
+        color: #213012;
+    }
+
+    .image-container {
+        background-image: url('../img/profile3.jpg');
+    }
+    
+    .navigation ul li {
+        display: block;
+        border: 1px solid #213012;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        color: #213012;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer ul a {
+        color: #213012;
+        text-decoration: none;
+    }
+    
+}
+
+/*DESKTOP*/
+@media (min-width: 1200px){
+
+    .container {
+        width: 100%;
+        background-color: #9c7f6b;
+        color: #582b14;
+    }
+
+    .image-container {
+        background-image: url('../img/profile4.jpg');
+    }
+    
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+        border: 1px solid #582b14;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        color: #582b14;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+        margin-right: 4rem;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 75%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer ul a {
+        color: #582b14;
+        text-decoration: none;
+    }
+    
+
+    .header h1 {
+        margin: 3rem auto;
+    }
+
+}
+
